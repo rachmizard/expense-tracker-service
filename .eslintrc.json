@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": false,
+        "node": true,
+        "es2021": true,
+        "jest": true
+    },
+    "plugins": [
+        "prettier"
+    ],
+    "extends": ["eslint:recommended", "prettier/standard", "plugin:@hapi/recommended", "plugin:@typescript-eslint/recommended"],
+    "parserOptions": {
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "rules": {
+        "space-before-function-paren": 0,
+        "new-cap": 0,
+        "prettier/prettier": 2
+    }
+}

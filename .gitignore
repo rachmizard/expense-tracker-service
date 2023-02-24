@@ -1,0 +1,11 @@
+## Dependencies
+node_modules
+
+## ENVS
+.env
+
+## Build
+dist
+
+## Errors
+yarn-error.log
